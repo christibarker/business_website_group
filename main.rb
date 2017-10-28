@@ -4,14 +4,16 @@ get '/' do
 	erb :home
 end
 
-get '/contact_us' do
-	erb :contact_us
+get '/about' do
+	erb	:about
+end
+
+get '/gallery'
+	erb :gallery
+end
+
+get '/contact' do
+	erb :contact
 end
 	
-post '/thanks' do
-	p params
-	@email = params[:email]
-	@message = params[:message]
-	erb :thanks
-end
 	
