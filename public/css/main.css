@@ -1,4 +1,13 @@
+/*css for gallery.erb*/
 .images {
 	height: 200px;
 	width: 200px;
+	border: ridge;
+	border-width: 10px;
+	border-color: rgb(42, 90,135);
 }
+
+.photo_header {
+	text-align: center;
+}
+
