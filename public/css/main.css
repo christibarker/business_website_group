@@ -90,6 +90,23 @@ footer {
 	text-align: center;
 }
 
+/**********css for services.erb***********/
+
+.spacing_top {
+	height: 200px;
+	width: 400px;
+}
+
+.spacing {
+	height: 200px;
+	width: 400px;
+}
+
+#sample {
+	background: green;
+}
+
+
 /*********************css for form****************/
 #contact {
 	height: 600px;
