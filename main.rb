@@ -14,6 +14,10 @@ get '/gallery' do
 	erb :gallery
 end
 
+get '/services' do
+	erb :services
+end
+
 get '/contact' do
 	erb :contact
 end
