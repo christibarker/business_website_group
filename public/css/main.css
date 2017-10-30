@@ -1,9 +1,22 @@
-/*******************Layout**********************/
+/*css for form*/
+#contact {
+	height: 400px;
+	width: 400px;
+}
 
+/*css for thanks page*/
+#thanks {
+	display: block;
+	text-align: center;
+	margin-top: 10%;
+
+
+/* for nav bar and footer */
 html, body {
   height: 100%;
   margin: 0;
 }
+  
 nav {
 	position: fixed;
 	width: 100%;

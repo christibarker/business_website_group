@@ -30,8 +30,5 @@ post '/thanks' do
 	Pony.mail(to: @to_email, from: @from_email, subject: 'Contact Us', body: 'Hello there.')
 	erb :thanks
 end
+
 	
-	
-
-
-
