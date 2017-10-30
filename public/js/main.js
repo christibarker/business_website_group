@@ -1,4 +1,4 @@
-
+// ********add service and price to page******
 
 $('.add').on('click', function(){
 			$('#shopping').text('hi');
@@ -20,6 +20,7 @@ $('.add_three').on('click', function(){
 			$('#cost').text('$' + 300);
 		});
 
+// ******subtract service and price to page**********
 $('.remove').on('click', function(){
 			$('#shopping').text('hi');
 			$('#cost').text('');
@@ -40,45 +41,24 @@ $('.remove_three').on('click', function(){
 			$('#cost').text('');
 		});
 
-// class Cost
-// 	attr_accessor :cost
-// 	def	initialize(args)
-// 		@cost = args
-// 	end
 
-// 	def	add()
-// 		if @cost 
-// 		@cost += 
+class Cost {
+	constructor(){
 
-// 	end 
+	}
 
-// 	def	minus()
-// 		if @cost 
-// 		@cost -= 
+	addMoney(){
+		if 
+	}
 
-// 	end 
+	subMoney(){
 
-// var cost = Cost.new()
+	}
 
-// class Elevator
-// 	attr_accessor :floor
-// 	def initialize(args)
-// 		@floor = args
-// 	end
-// 	def go_up()
-// 		if @floor < 12
-// 			@floor += 1
-// 		end
-// 	end
-// 	def go_down()
-// 		if @floor > 1
-// 			@floor -= 1 
-// 		end
-// 	end
-// 	def greeting()
-// 		puts "welcome to the #{floor} floor"
-// 	end
-// end
+	updateTotals(){
 
+	}
 
+};
 
+var cost = Cost.new()
