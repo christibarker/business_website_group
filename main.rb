@@ -14,19 +14,8 @@ get '/gallery' do
 	erb :gallery
 end
 
-get '/contact_us' do
-	erb :contact_us
-end
-
-get '/thanks' do
-	erb :thanks
-end
-	
-post '/thanks' do
-	p params
-	@email = params[:email]
-	@message = params[:message]
-	erb :thanks
+get '/contact' do
+	erb :contact
 end
 
 get '/thanks' do
@@ -41,4 +30,5 @@ post '/thanks' do
 	Pony.mail(to: @to_email, from: @from_email, subject: 'Contact Us', body: 'Hello there.')
 	erb :thanks
 end
+
 	

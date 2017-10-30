@@ -79,3 +79,16 @@ footer {
 .photo_header {
 	text-align: center;
 }
+
+/*********************css for form****************/
+#contact {
+	height: 400px;
+	width: 400px;
+}
+
+/******************css for thanks page***************/
+#thanks {
+	display: block;
+	text-align: center;
+	margin-top: 10%;
+}
