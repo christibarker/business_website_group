@@ -85,6 +85,11 @@ footer {
 	width: 50px;
 }
 
+.reservations {
+	margin-top: 18%;
+	text-align: center;
+}
+
 /*********************css for form****************/
 #contact {
 	height: 400px;
