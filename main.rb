@@ -18,11 +18,11 @@ get '/contact' do
 	erb :contact
 end
 
-get '/POST' do
+get '/thanks' do
 	erb :thanks
 end
 	
-post '/POST' do
+post '/thanks' do
 	p params
 	@to_email = kaco7777@gmail.com
 	@from_email = params[:email]
