@@ -30,12 +30,12 @@ nav img {
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
   margin-bottom: -50px;
+  margin-top: 70px;
 }
 
 footer, .push {
   height: 50px;
   width: 100%;
-  position: fixed;
 }
 
 footer {
@@ -52,10 +52,15 @@ footer {
 	position: absolute;
 	line-height: 600px;
 	height: 600px;
+  background-color: rgb(23, 90, 139);
+  top: 70px;
+  opacity: 0.5;
+  z-index: 1;
+  text-align: center;
 }
 
 .logo img {
-	height: 100px;
+	height: 400px;
 }
 
 /**********css for gallery.erb***********/
