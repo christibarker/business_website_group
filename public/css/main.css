@@ -1,17 +1,4 @@
-
-/*css for gallery.erb*/
-.images {
-	height: 200px;
-	width: 200px;
-	border: ridge;
-	border-width: 10px;
-	border-color: rgb(42, 90,135);
-}
-
-.photo_header {
-	text-align: center;
-}
-
+/*******************Layout**********************/
 
 html, body {
   height: 100%;
@@ -21,6 +8,8 @@ nav {
 	position: fixed;
 	width: 100%;
 	background-color: rgb(198, 200, 201);
+	z-index: 2;
+	top: 0;
 }
 
 nav ul {
@@ -36,7 +25,6 @@ nav img {
 
 .wrapper {
   min-height: 100%;
-
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
   margin-bottom: -50px;
@@ -52,3 +40,29 @@ footer {
 	  background-color: rgb(240, 240, 241);
 }
 
+/********************Home**********************/
+
+.carousel-inner {
+	height: 600px;
+}
+.logo {
+	position: absolute;
+	line-height: 600px;
+	height: 600px;
+}
+.logo img {
+	height: 100px;
+}
+
+/**********css for gallery.erb***********/
+.images {
+	height: 200px;
+	width: 200px;
+	border: ridge;
+	border-width: 10px;
+	border-color: rgb(42, 90,135);
+}
+
+.photo_header {
+	text-align: center;
+}
