@@ -177,7 +177,7 @@ footer {
 /**********css for services.erb***********/
 
 .spacing_top {
-	height: 200px;
+	height: 500px;
 	width: 400px;
 }
 
@@ -190,10 +190,14 @@ footer {
 	background: green;
 }
 
+.card_services {
+	border: none;
+}
+
 
 /*********************css for form****************/
 #contact {
-	height: 600px;
+	height:700px;
 	width: 400px;
 }
 
