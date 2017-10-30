@@ -57,6 +57,7 @@ class Cost {
 
 	updateTotals(){
 
+		$('#estimate').text('$' + );
 	}
 
 };
