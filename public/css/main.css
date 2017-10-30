@@ -126,18 +126,18 @@ footer {
 	margin-top: 80px;
 }
 
-.card {
+.card_home {
 	background: transparent;
 	border: none;
 	color: white;
 	text-align: center;
 }
 
-.card img{
+.card_home img{
 	height: 200px;
 	width: 200px;
 }
-.card-img-top {
+.home_card {
 	margin: 0 auto;
 }
 
@@ -177,8 +177,8 @@ footer {
 /**********css for services.erb***********/
 
 .spacing_top {
-	height: 600px;
-	width: 600px;
+	height: 200px;
+	width: 400px;
 }
 
 .spacing {
@@ -186,9 +186,8 @@ footer {
 	width: 400px;
 }
 
-.services {
-	height: 200px;
-	width: 200px;
+#sample {
+	background: green;
 }
 
 
@@ -204,7 +203,7 @@ footer {
 }
 
 .button {
-	text-align: center;
+	float: right;
 }
 
 /******************css for thanks page***************/
