@@ -17,8 +17,11 @@
 	width: 200px;
 }
 
-/*css for form page*/
-h1 h3 {
-	text-align: center;
-}
 
+
+/*css for thanks page*/
+#thanks {
+	display: block;
+	text-align: center;
+	margin-top: 10%;
+}

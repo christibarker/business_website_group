@@ -14,11 +14,11 @@ get '/contact' do
 	erb :contact
 end
 
-get '/thanks' do
+get '/POST' do
 	erb :thanks
 end
 	
-post '/thanks' do
+post '/POST' do
 	p params
 	@email = params[:email]
 	@message = params[:message]
