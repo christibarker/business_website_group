@@ -14,8 +14,19 @@ get '/gallery' do
 	erb :gallery
 end
 
-get '/contact' do
-	erb :contact
+get '/contact_us' do
+	erb :contact_us
+end
+
+get '/thanks' do
+	erb :thanks
+end
+	
+post '/thanks' do
+	p params
+	@email = params[:email]
+	@message = params[:message]
+	erb :thanks
 end
 
 get '/thanks' do
@@ -31,10 +42,3 @@ post '/thanks' do
 	erb :thanks
 end
 	
-
-
-
-
-	
-	
-
