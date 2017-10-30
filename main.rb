@@ -24,7 +24,7 @@ end
 	
 post '/thanks' do
 	p params
-	@to_email = kaco7777@gmail.com
+	@to_email = 'kaco7777@gmail.com'
 	@from_email = params[:email]
 	@message = params[:message]
 	Pony.mail(to: @to_email, from: @from_email, subject: 'Contact Us', body: 'Hello there.')

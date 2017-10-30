@@ -92,8 +92,17 @@ footer {
 
 /*********************css for form****************/
 #contact {
-	height: 400px;
+	height: 600px;
 	width: 400px;
+}
+
+#message {
+	height: 100px;
+	width: 436px;
+}
+
+.button {
+	float: right;
 }
 
 /******************css for thanks page***************/
