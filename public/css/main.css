@@ -11,3 +11,14 @@
 	text-align: center;
 }
 
+/*css for form*/
+#message {
+	height: 200px;
+	width: 200px;
+}
+
+/*css for form page*/
+h1 h3 {
+	text-align: center;
+}
+
