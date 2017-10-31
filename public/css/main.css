@@ -174,11 +174,6 @@ footer {
 	background-color: #175A8B;
 }*/
 
-.side{
-	height: 100px;
-	width: 100px;
-}
-
 .topic {
 	margin-top: 5%;
 	width: 500px;
@@ -204,6 +199,12 @@ footer {
 	width: 50px;
 }
 
+#p_name {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
 .reservations {
 	margin-top: 18%;
 	text-align: center;
@@ -212,8 +213,8 @@ footer {
 /**********css for services.erb***********/
 
 .spacing_top {
-	height: 500px;
-	width: 400px;
+	height: auto;
+	width: auto;
 }
 
 .spacing {
@@ -229,11 +230,14 @@ footer {
 	border: none;
 }
 
+.remove {
+	margin-left: 5px;
+}
 
 /*********************css for form****************/
 #contact {
-	height:700px;
-	width: 400px;
+	height:auto;
+	width: auto;
 }
 
 #message {
