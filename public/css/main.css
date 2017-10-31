@@ -183,7 +183,6 @@ footer {
 }
 
 
-
 /**********css for gallery.erb***********/
 
 .images {
@@ -206,6 +205,12 @@ footer {
 .left-margin {
 	width: 50px;
 }
+
+#p_name {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 
 .reservations {
 	margin-top: 18%;
