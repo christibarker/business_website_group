@@ -237,6 +237,9 @@ footer {
 	border: none;
 }
 
+.remove {
+	margin-left: 5px;
+}
 
 /*********************css for form****************/
 #contact {
