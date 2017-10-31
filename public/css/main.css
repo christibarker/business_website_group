@@ -44,6 +44,11 @@ footer {
 
 /********************Home**********************/
 
+.home {
+	height: 2000px;
+	overflow: hidden;
+}
+
 .carousel-inner {
 	height: 600px;
 }
@@ -144,6 +149,17 @@ footer {
 .home_button {
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+/*contact us*/
+.contact_us {
+	position: relative;
+	top: -1430px;
+	text-align: center;
+}
+.contact_button {
+	position: relative;
+	top: -1420px;
 }
 
 /**********css for gallery.erb***********/
