@@ -213,7 +213,6 @@ footer {
 	font-weight: bold;
 }
 
-
 .reservations {
 	margin-top: 18%;
 	text-align: center;
@@ -265,9 +264,7 @@ footer {
 	margin-top: 10%;
 }
 
-
 /********************Shopping Cart*******************/
-
 .shopping_cart {
 	background-color: pink;
 	float: left;
@@ -283,4 +280,3 @@ footer {
 	border: 1px solid grey;
 	background-color: rgb(240, 240, 241);
 }
-
