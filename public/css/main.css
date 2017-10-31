@@ -19,7 +19,7 @@ nav ul {
 	padding: 15px;
 }
 
-nav img {
+#logo_nav {
 	float: left;
 	height: 50px;
 	margin: 10px
@@ -39,6 +39,15 @@ footer, .push {
 
 footer {
 	  background-color: rgb(240, 240, 241);
+}
+
+#cart_icon {    
+	float: left;
+  margin: 10px;
+  height: 30px;
+  position: relative;
+  top: -12px;
+
 }
 
 /********************Home**********************/
