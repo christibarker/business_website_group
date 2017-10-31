@@ -165,10 +165,10 @@ footer {
 /**********css for about.erb***********/
 .about_page {
 	height: 400px;
-	width: 400px;
-	/*background-color: #175A8B;*/
-	box-shadow: 20px 20px 5px #175A8B;
-	border-radius: 15%;
+}
+
+.about_logo {
+	text-align: center;
 }
 
 /*.color {
@@ -182,10 +182,9 @@ footer {
 
 .topic {
 	margin-top: 5%;
-	text-align: center;
 /*	height: 400px;*/
 	width: 500px;
-	background-color: #6693B2;
+
 }
 
 
