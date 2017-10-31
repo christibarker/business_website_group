@@ -16,6 +16,7 @@ $(function() {
 			{name: 'penguin_purchase', quantity_added: 0, cost_per: 2.45},
 			{name: 'penguin_purchase', quantity_added: 0, cost_per: 2.45},
 			{name: 'penguin_purchase', quantity_added: 0, cost_per: 2.45}
+			
 		];
 		this.serviceArray = ['services_1', 'services_2', 'services_3', 'services_4']
 		}
