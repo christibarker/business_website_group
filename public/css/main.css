@@ -235,8 +235,8 @@ footer {
 
 /*********************css for form****************/
 #contact {
-	height:700px;
-	width: 400px;
+	height:auto;
+	width: auto;
 }
 
 #message {
