@@ -27,8 +27,6 @@ nav img {
 
 .wrapper {
   min-height: 100%;
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
   margin-bottom: -50px;
   margin-top: 70px;
 }
@@ -36,6 +34,7 @@ nav img {
 footer, .push {
   height: 50px;
   width: 100%;
+  z-index: 3;
 }
 
 footer {
@@ -177,20 +176,14 @@ footer {
 
 .topic {
 	margin-top: 5%;
-/*	height: 400px;*/
 	width: 500px;
-
 }
-
 
 /**********css for gallery.erb***********/
 
 .images {
 	height: 300px;
 	width: 300px;
-	/*border: ridge;
-	border-width: 10px;*/
-	/*border-color: rgb(42, 90,135);*/
 	border-radius: 15%;
 	box-shadow: 10px 10px 5px #6693B2;
 	margin-bottom: 8%
@@ -262,3 +255,23 @@ footer {
 	text-align: center;
 	margin-top: 10%;
 }
+
+
+/********************Shopping Cart*******************/
+
+.shopping_cart {
+	background-color: pink;
+	float: left;
+	border-right: 2px solid grey;
+	z-index: -1;
+}
+
+.count {
+	width: 30px;
+}
+
+.service {
+	border: 1px solid grey;
+	background-color: rgb(240, 240, 241);
+}
+
