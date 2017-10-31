@@ -1,65 +1,95 @@
-// ********add service and price to page******
+$(function() {
 
-$('.add').on('click', function(){
-			$('#shopping').text('hi');
-			$('#cost').text('$' + 300);
-		});
+	if (Cookies.get('cartCount') === undefined) {
+		Cookies.set('cartCount', 0);
+	} //if
 
-$('.add_one').on('click', function(){
-			$('#shopping_two').text('hi 2');
-			$('#cost').text('$' + 300);
-		});
-
-$('.add_two').on('click', function(){
-			$('#shopping_three').text('hi 3');
-			$('#cost').text('$' + 300);
-		});
-
-$('.add_three').on('click', function(){
-			$('#shopping_four').text('hi 4');
-			$('#cost').text('$' + 300);
-		});
-
-// ******subtract service and price to page**********
-$('.remove').on('click', function(){
-			$('#shopping').text('hi');
-			$('#cost').text('');
-		});
-
-$('.remove_one').on('click', function(){
-			$('#shopping_two').text('hi 2');
-			$('#cost').text('');
-		});
-
-$('.remove_two').on('click', function(){
-			$('#shopping_three').text('hi 3');
-			$('#cost').text('');
-		});
-
-$('.remove_three').on('click', function(){
-			$('#shopping_four').text('hi 4');
-			$('#cost').text('');
-		});
-
-
-class Cost {
+	class Cart {
 	constructor(){
+		this.cart = Cookies.get('cartCount');
+		this.service_one = 0;
+		this.service_two = 0 ;
+		this.service_three = 0;
+		this.service_four = 0;
+		this.services = [
+			{name: 'penguin_purchase', quantity_added: 0, cost_per: 2.45},
+			{name: 'penguin_purchase', quantity_added: 0, cost_per: 2.45},
+			{name: 'penguin_purchase', quantity_added: 0, cost_per: 2.45},
+			{name: 'penguin_purchase', quantity_added: 0, cost_per: 2.45}
+		];
+		this.serviceArray = ['services_1', 'services_2', 'services_3', 'services_4']
+		}
 
-	}
+		addMoney(service, cost){
+			$(`'#${this.serviceArray[service]}_cost'`).val
 
-	addMoney(){
-		if 
-	}
 
-	subMoney(){
 
-	}
 
-	updateTotals(){
 
-		$('#estimate').text('$' + );
-	}
+
+			this.cart =
+		}//addMoney
+
+		subMoney(){
+			this.cart =
+		}//subMoney
+
+		updateTotals(){
+
+			$('#estimate').text('$' + );
+		}//updateTotals
 
 };
 
-var cost = Cost.new()
+
+
+let cart = new Cart();
+
+	// ********add service and price to page******
+
+	$('#services_1').on('click', function(){
+			
+			});
+
+	$('#services_2').on('click', function(){
+			
+			});
+
+	$('#services_3').on('click', function(){
+				$('#shopping_three').text('hi 3');
+				$('#cost').text('$' + 900);
+			});
+
+	$('#services_4').on('click', function(){
+				$('#shopping_four').text('hi 4');
+				$('#cost').text('$' + 300,000,000);
+			});
+
+	// ******subtract service and price to page**********
+	$('.r_services_1').on('click', function(){
+				$('#shopping').text('hi');
+				$('#cost').text('');
+			});
+
+	$('.r_services_2').on('click', function(){
+				$('#shopping_two').text('hi 2');
+				$('#cost').text('');
+			});
+
+	$('.r_services_3').on('click', function(){
+				$('#shopping_three').text('hi 3');
+				$('#cost').text('');
+			});
+
+	$('.r_services_4').on('click', function(){
+				$('#shopping_four').text('hi 4');
+				$('#cost').text('');
+			});
+
+
+
+	var cost = Cost.new()
+
+
+});

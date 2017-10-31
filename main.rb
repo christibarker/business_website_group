@@ -35,4 +35,7 @@ post '/thanks' do
 	erb :thanks
 end
 
+get '/shopping_cart' do
+	erb :shopping_cart
+end
 	
