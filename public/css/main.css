@@ -243,6 +243,10 @@ footer {
 	margin-left: 5px;
 }
 
+.services {
+	margin: 0 auto;
+}
+
 /*********************css for form****************/
 #contact {
 	height:auto;
