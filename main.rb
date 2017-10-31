@@ -22,6 +22,10 @@ get '/contact' do
 	erb :contact
 end
 
+get '/shopping_cart' do
+	erb :shopping_cart
+end
+
 get '/thanks' do
 	erb :thanks
 end
@@ -35,7 +39,5 @@ post '/thanks' do
 	erb :thanks
 end
 
-get '/shopping_cart' do
-	erb :shopping_cart
-end
+
 	
