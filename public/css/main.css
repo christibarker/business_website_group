@@ -221,8 +221,8 @@ footer {
 /**********css for services.erb***********/
 
 .spacing_top {
-	height: 500px;
-	width: 400px;
+	height: auto;
+	width: auto;
 }
 
 .spacing {
