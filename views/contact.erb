@@ -1,16 +1,14 @@
 <h1 class="photo_header">Contact Us</h1>
-
 <!-- for form  place in the 2nd grid-->
 <div class="container-fluid">
   <div class="row">
-    <div id="left_margin" class="col-sm">
-    </div>
+    <div id="left_margin" class="col-sm"></div>
     <div id="contact" class="col-sm">
-      <div  class="form">
+      <div class="form">
 				<form action="/thanks" method="POST">
 	  			<div class="form-group">
 				    <label for="name">Name</label>
-				    <input type="text" class="form-control" id="name" placeholder="Name">
+				    <input type="text" class="form-control" id="contact_name" placeholder="Name">
 	 				</div>
 	   			<div class="form-group">
 				    <label for="phone">Phone</label>
@@ -40,11 +38,22 @@
 					    <input type="message" class="form-control" id="message">
 					  </div>
 					  <button id="button" type="submit" class="btn btn-secondary">Submit Request</button>
-				    <div id="right-margin"class="col-sm">
-   					</div>
-  				</div>
-				</div>
-			<div id="left_margin" class="col-sm">
-    </div>
-  </div>
+	   			</form>
+	   		</div>
+	  	</div>
+	  <div id="right-margin" class="col-sm"></div>
+	</div>
+	<div id="row">
+		<div id="modal">
+		  <div id="modal_header">
+		  	<span id="close">&times;</span>
+		    <h2 id="join">Join the Pimpguin Players Club for Exclusive Offers and Info!</h2>
+		  </div>
+	    <input id="name" type="name" placeholder="Name">
+	    <input id="email" type="email" placeholder="Email">
+	    <button id="submit_ppp">Submit</button>
+	    <h3 id="now">Join Now!</h3>
+		</div>
+	</div>
+</div>
 
