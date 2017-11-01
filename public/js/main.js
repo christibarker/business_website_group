@@ -1,6 +1,5 @@
-$(function() {
 
-	if (Cookies.get('cartCount') === undefined) {
+ 	if (Cookies.get('cartCount') === undefined) {
 		Cookies.set('cartCount', 0);
 	} //if
 
