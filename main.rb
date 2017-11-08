@@ -35,7 +35,8 @@ post '/thanks' do
 	@m_m_name = params[:m_m_name]
 	@service = params[:service]
 	@message = params[:message]
-	@body = %(From: #{@name}, 
+	@body = %(
+						From: #{@name}, 
 						Phone: #{@phone}, 
 						Email: #{@from_email}, 
 						Mother's Maiden Name: #{@m_m_name}, 
