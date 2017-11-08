@@ -35,7 +35,13 @@ post '/thanks' do
 	@m_m_name = params[:m_m_name]
 	@service = params[:service]
 	@message = params[:message]
-	@body = %(From: #{@name}, Phone: #{@phone}, Email: #{@from_email}, Mother's Maiden Name: #{@m_m_name}, Service: #{@service}, Message: #{@message})
+	@body = %(From: #{@name}, 
+						Phone: #{@phone}, 
+						Email: #{@from_email}, 
+						Mother's Maiden Name: #{@m_m_name}, 
+						Service: #{@service}, 
+						Message: #{@message}
+						)
 	Pony.mail(to: @to_email, from: @from_email, subject: 'Contact Us', body: @body)
 	erb :thanks
 end
